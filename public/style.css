@@ -1,0 +1,82 @@
+button {
+    position: relative;
+    width: 100%;
+    display: block;
+    border: none;
+    background-color: #ce5e83;
+    color: #fff;
+    padding: 5px;
+}
+
+.popup {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 100%;
+    height: 100%;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+    padding: 20px;
+    background-color: #eb90ae;
+  }
+
+  h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*body {
+    margin: 20px auto;
+    padding: 0 20px 400px;
+    max-width: 800px;
+    border: 3px solid #cccccc;
+  }*/
