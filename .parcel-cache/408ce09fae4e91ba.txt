@@ -1,5 +1,5 @@
 6231
-125C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\package.json133277373573494699 0
+125C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\package.json133283277343481253 0
 204C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\walk.js133277277708994409 0
 159C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\caniuse-lite\data\features\let.js133277277713872996 0
 138C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\content-type133246536433608767 1
@@ -17,7 +17,7 @@
 132C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@lezer133277277686674585 1
 141C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\source-map\dist133277277703085097 1
 164C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\css-tree\cjs\syntax\scope\selector.cjs133277277708310426 0
-123C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\.gitignore133246533654012381 0
+123C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\.gitignore133283277355948936 0
 144C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\express\lib\router133246536434517139 1
 163C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\caniuse-lite\data\features\css-all.js133277277708724306 0
 185C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\atrule133277277704373578 1
@@ -107,7 +107,7 @@
 133C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel133277277686753264 1
 159C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\css-tree\lib\syntax\node\index.js133277277710274810 0
 122C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\README.md133246533654012381 0
-130C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\index.html133277387773571040 0
+130C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\index.html133283277349762200 0
 166C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\source-map-js\lib\source-map-consumer.js133277277699658771 0
 139C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\cache133277277701163634 1
 140C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\ordered-binary133277277700256963 1
@@ -121,7 +121,7 @@
 175C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\css-tree\cjs\syntax\node\index-parse-selector.cjs133277277706181032 0
 174C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\caniuse-lite\data\features\speech-recognition.js133277277715993533 0
 161C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\svgo\plugins\removeScriptElement.js133277277705532965 0
-129C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\script.js133278277296843127 0
+129C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\script.js133283277390394279 0
 182C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure133277277705407072 1
 148C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\serve-static\README.md133246536433608767 0
 185C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@jridgewell\sourcemap-codec\dist\types\sourcemap-codec.d.ts133277277699658771 0
@@ -134,7 +134,7 @@
 165C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\css-tree\cjs\syntax\node\StyleSheet.cjs133277277708495346 0
 136C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\picocolors133277277698734887 1
 201C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\optimizer-htmlnano\node_modules\mdn-data\css\properties.schema.json133277277702304972 0
-129C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\style.css133277386855199065 0
+129C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\public\style.css133283277371327809 0
 153C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\@parcel\events\src\index.js133277277699544850 0
 139C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\color-convert133277277698853310 1
 144C:\Users\61457\OneDrive - The University of Sydney (Students)\Year 2\Semester 1\DECO2017\VSrepo\eare0976-tracker\node_modules\chrome-trace-event133277277698966887 1
