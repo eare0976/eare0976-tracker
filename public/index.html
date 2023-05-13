@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width">
   <title>eare0976_tracker</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js"></script>
 </head>
 <header>
   <h1>BAKED</h1>
@@ -18,29 +17,33 @@
   <button class="mainbutton" onclick="myFunction()"><h3>Add Item To Bakery</h3></button> 
   <span class="popuptext" id="myPopup"> 
     <form id="recipeform">
-    <input style="float:left" type="text" name="name" id="nameInput" placeholder="Name" required>
-  <select  style="float:right" id="category" name="categoryInput" placeholder="Select Category" required>
+    <input style="float:left" type="text" name="name" id="nameInputs" placeholder="Name" required>
+  <select  style="float:right" id="category" name="categoryInputs" placeholder="Select Category" required>
   <option value="chocolate">Chocolate Confectionary</option>
   <option value="pastry">Pastry</option>
   <option value="cake">Cake</option>
   <option value="pie">Pie</option>
   <option value="cookie">Cookie</option>
 </select>
-<input style="float:left" type="number" name="preptime" id="preptimeInput" placeholder="Preperation Time (mins)" required >
-<input style="float:right" type="number" name="baketime" id="baketimeInput" placeholder="Baking Time (mins)" required>
-<textarea style="float:left" type="text" id="recipeInput" name="recipe" rows="5" placeholder="Recipe"></textarea>
-<textarea style="float:right"type="text" id="ingredientInput" name="ingredient" rows="5"  placeholder="Ingredients"></textarea>
+<input style="float:left" type="number" name="preptime" id="preptimeInputs" placeholder="Preperation Time (mins)" required >
+<input style="float:right" type="number" name="baketime" id="baketimeInputs" placeholder="Baking Time (mins)" required>
+<textarea style="float:left" type="text" id="recipeInputs" name="recipe" rows="5" placeholder="Recipe"></textarea>
+<textarea style="float:right"type="text" id="ingredientInputs" name="ingredient" rows="5"  placeholder="Ingredients"></textarea>
 <br>
-<button class="submit" type="submit">Submit</button> 
-<button class="reset" type="reset">Clear</button> 
+<button class="submit" type="submit" id="submit">Submit</button> 
+<input class="reset" type="reset">Clear</button> 
 </form>
 </span>
 </div>
 <br>
   <section class="bakery">
   <h2>Your Bakery</h2>
+  
   <p>teest</p>
+  <ul id="recipelist">
+    test
+  </ul>
 </section>
 </body>
-
+<script src="script.js" defer></script>
 </html>
