@@ -8,9 +8,8 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <header>
-  <h1>BAKED</h1>
-  <br>
- <h1> Let's Get BAKED</h1>
+  <img src="BAKEDlogo2.png" width="auto" height="100px">
+  <!-- <br> Let's Get BAKED</h1> -->
 </header>
 <body>
   <div class="popup">
@@ -19,30 +18,31 @@
     <form id="recipeform">
     <input style="float:left" type="text" name="name" id="nameInputs" placeholder="Name" required>
   <select  style="float:right" id="category" name="categoryInputs" placeholder="Select Category" required>
-  <option value="chocolate">Chocolate Confectionary</option>
-  <option value="pastry">Pastry</option>
-  <option value="cake">Cake</option>
-  <option value="pie">Pie</option>
-  <option value="cookie">Cookie</option>
+  <option value="Chocolate Confectionary">Chocolate Confectionary</option>
+  <option value="Pastry">Pastry</option>
+  <option value="Cake">Cake</option>
+  <option value="Pie">Pie</option>
+  <option value="Cookie">Cookie</option>
 </select>
 <input style="float:left" type="number" name="preptime" id="preptimeInputs" placeholder="Preperation Time (mins)" required >
 <input style="float:right" type="number" name="baketime" id="baketimeInputs" placeholder="Baking Time (mins)" required>
-<textarea style="float:left" type="text" id="recipeInputs" name="recipe" rows="5" placeholder="Recipe"></textarea>
-<textarea style="float:right"type="text" id="ingredientInputs" name="ingredient" rows="5"  placeholder="Ingredients"></textarea>
+<textarea style="float:left" type="text" id="recipeInputs" name="recipe" rows="5" placeholder="Recipe" required></textarea>
+<textarea style="float:right"type="text" id="ingredientInputs" name="ingredient" rows="5"  placeholder="Ingredients" required></textarea>
 <br>
 <button class="submit" type="submit" id="submit">Submit</button> 
-<input class="reset" type="reset">Clear</button> 
+<input class="reset" type="reset"></button> 
 </form>
 </span>
 </div>
 <br>
   <section class="bakery">
   <h2>Your Bakery</h2>
+  <p>Your Bakery is currently empty, click the button "Add Item to Bakery" to get started!</p>
   
-  <p>teest</p>
   <ul id="recipelist">
-    test
   </ul>
+  <div class="recipelist-column"></div>
+
 </section>
 </body>
 <script src="script.js" defer></script>

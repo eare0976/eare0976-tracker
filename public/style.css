@@ -1,5 +1,24 @@
+header {
+  text-align: center;
+}
+
+
+/* header .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+header .logo img {
+  flex-grow: 1;
+}
+
+header .logo h1 {
+  flex-grow: 1;
+} */
+
 .popup {
-    position: absolute;
+   /* position: absolute;*/
     display: block;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -11,23 +30,22 @@
   
   /* The actual popup */
   .popup .popuptext {
-    visibility: hidden;
+    display: none;
     width: 100%;
     height: 100%;
-    display: block;
     background-color:#ffffff;
-    color: #fff;
-    padding: 5px;
-    padding-top: 20px;
+    color: #09e0bc;
+    padding-top: 25px;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     text-align: left;
   }
   
   /* Toggle this class - hide and show the popup */
   .popup .show {
-    visibility: visible;
+    display: block;
+    border-bottom: 40px solid #ce5e83;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
@@ -49,7 +67,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
   }
 
   header {
@@ -60,6 +77,14 @@
 
   h1 {
     color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    color: #ffffff;
+    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -98,9 +123,14 @@
     width: 100%;
     display: block;
     border: none;
+    box-sizing: border-box;
     background-color: #ce5e83;
     color: #fff;
     padding: 10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+.mainbutton :hover {
+    color: #ffffff;
 }
 
 .submit, .reset {
@@ -119,7 +149,7 @@
     background-color:#868686;
   }
 
- .submit:hover {
+ .submit :hover {
     background-color:#ce5e83;
   }
   .reset:hover {
@@ -127,19 +157,87 @@
   }
 
   .bakery {
-    margin-top: 10%;
-    /* margin: 10px 10px auto; */
+    text-align: center;
+    margin-top: 4%;
   }
-/* 
-  .test {
-    display: inline-block;
-    margin: 5px 5px auto;
-    justify-content: space-evenly;
-    flex: 25%;
+
+  .bakery h2 {
+    color: #3d3d3d;
+  }
+
+  /* #recipelist {
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 25px;
+    border: 2px solid #3d3d3d;
+    text-align: left;
+  }
+
+  ul, li {
+    list-style-type: none;
+} */
+
+
+#recipelist {
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+    display: block;
+    flex-direction: row;
+    list-style: none;
+  }
+
+#recipelist li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid gray;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
-.test label {
-    display: block;
-    justify-content: space-evenly;
+#recipelist img {
+  flex-grow: 1;
 }
-   */
+/* #recipelist li h2 {
+  text-align: left; 
+  flex-direction: row;
+} */
+#recipelist li p {
+  text-align: left; 
+  flex-grow: 1;
+  flex-direction: row;
+  /* margin-left: 10px; */
+  /* max-width: 200px; */
+}
+#recipelist li span {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* #recipelist li input[type="checkbox"] {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+} */
+
+#recipelist li button {
+  font-size: 15px;
+  width: 80px;
+  height: 80px;
+  padding: 4px;
+  margin-left: 2px;
+}
+
+#recipelist li strong {
+  font-size: 30px;
+}
+
+#recipelist li em {
+  font-size: 20px;
+}
