@@ -8,42 +8,68 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <header>
-  <img src="BAKEDlogo2.png" width="auto" height="100px">
-  <!-- <br> Let's Get BAKED</h1> -->
+  <img src="BAKEDlogo2.png" alt="BAKED Logo">
 </header>
 <body>
-  <div class="popup">
-  <button class="mainbutton" onclick="myFunction()"><h3>Add Item To Bakery</h3></button> 
-  <span class="popuptext" id="myPopup"> 
-    <form id="recipeform">
-    <input style="float:left" type="text" name="name" id="nameInputs" placeholder="Name" required>
-  <select  style="float:right" id="category" name="categoryInputs" placeholder="Select Category" required>
-  <option value="Chocolate Confectionary">Chocolate Confectionary</option>
-  <option value="Pastry">Pastry</option>
-  <option value="Cake">Cake</option>
-  <option value="Pie">Pie</option>
-  <option value="Cookie">Cookie</option>
-</select>
-<input style="float:left" type="number" name="preptime" id="preptimeInputs" placeholder="Preperation Time (mins)" required >
-<input style="float:right" type="number" name="baketime" id="baketimeInputs" placeholder="Baking Time (mins)" required>
-<textarea style="float:left" type="text" id="recipeInputs" name="recipe" rows="5" placeholder="Recipe" required></textarea>
-<textarea style="float:right"type="text" id="ingredientInputs" name="ingredient" rows="5"  placeholder="Ingredients" required></textarea>
+  <div class="popup"> 
+     <button class="mainbutton" onclick="myFunction()"> <!--calls function which toggles form display -->
+      <h3>Add Item To Bakery</h3>
+    </button>
+    <span class="popuptext" id="myPopup"> <!--code for form -->
+      <form id="recipeform">
+        <div class="form-row">
+          <div class="form-column">
+            <input type="text" name="name" id="nameInputs" placeholder="Name" required>
+          </div>
+          <div class="form-column">
+            <select id="category" name="categoryInputs" placeholder="Select Category" required>
+              <option value="">Select an option</option>
+              <option value="Chocolate Confectionary">Chocolate Confectionary</option>
+              <option value="Pastry">Pastry</option>
+              <option value="Bread">Bread</option>
+              <option value="Quick-Bread">Quick-Bread</option>
+              <option value="Cake">Cake</option>
+              <option value="Pie">Pie</option>
+              <option value="Cookie">Cookie</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-column">
+            <input type="number" name="preptime" id="preptimeInputs"
+              placeholder="Preperation Time (mins)" required>
+          </div>
+          <div class="form-column">
+            <input  type="number" name="baketime" id="baketimeInputs"
+              placeholder="Baking Time (mins)" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-column">
+            <textarea type="text" id="recipeInputs" name="recipe" rows="5" placeholder="Recipe - Press enter to seperate each step"
+              required></textarea>
+          </div>
+          <div class="form-column">
+            <textarea type="text" id="ingredientInputs" name="ingredient" rows="5"
+              placeholder="Ingredients - Press enter to seperate each ingredient" required></textarea>
+          </div>
+        </div>
 <br>
-<button class="submit" type="submit" id="submit">Submit</button> 
-<input class="reset" type="reset"></button> 
+<input class="submit" type="submit"></input> 
+<input class="reset" type="reset"></input> 
 </form>
 </span>
 </div>
 <br>
-  <section class="bakery">
+  <section class="bakery"> <!--code for bakery section -->
   <h2>Your Bakery</h2>
-  <p>Your Bakery is currently empty, click the button "Add Item to Bakery" to get started!</p>
-  
-  <ul id="recipelist">
-  </ul>
-  <div class="recipelist-column"></div>
+  <p id="test">Your Bakery is currently empty! Click "Add Item to Bakery" to get started!</p> <!-- this text toggles -->
 
+  <aside id="recipelist"> <!--where the recipe display appears -->
+  </aside>
 </section>
+
+
 </body>
 <script src="script.js" defer></script>
 </html>

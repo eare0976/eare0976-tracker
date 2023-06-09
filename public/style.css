@@ -1,24 +1,52 @@
+/* Start of CSS code  */
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#3d3d3d;
+}
+
 header {
   text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #eb90ae;
 }
 
+header img {
+width: auto;
+height: 100px;
+}
 
-/* header .logo {
+@media screen and (max-width: 430px) {
+header > img {
+  width: auto;
+  height: 65px;
+    }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Start of CSS code for pop up form */
+
+.form-row {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-header .logo img {
-  flex-grow: 1;
+.form-column {
+  flex: 1;
+  margin-right: 10px;
 }
-
-header .logo h1 {
-  flex-grow: 1;
-} */
 
 .popup {
-   /* position: absolute;*/
     display: block;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -34,12 +62,17 @@ header .logo h1 {
     width: 100%;
     height: 100%;
     background-color:#ffffff;
-    color: #09e0bc;
-    padding-top: 25px;
+    padding-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 25px;
+    padding-bottom: 5%;
     text-align: left;
+  }
+
+  @media screen and (max-width: 430px) {
+    .popup .popuptext {
+      padding: 5%;
+        }
   }
   
   /* Toggle this class - hide and show the popup */
@@ -49,8 +82,12 @@ header .logo h1 {
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   }
+  .popup .hidden {
+    -webkit-animation: fadeOut 1s;
+    animation: fadeOut 1s;
+  }
   
-  /* Add animation (fade in the popup) */
+  /* Add animations (fade in the popup) */
   @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -60,43 +97,19 @@ header .logo h1 {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
+
+  @-webkit-keyframes fadeOut {
+    from {opacity: 1;} 
+    to {opacity: 0;}
+  }
   
-  html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  header {
-    width: 100%;
-    padding: 20px;
-    background-color: #eb90ae;
-  }
-
-  h1 {
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  h2 {
-    color: #ffffff;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  @keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity:0 ;}
   }
 
   input, select {
-    width:48%;
+    width:100%;
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 2%;
@@ -107,7 +120,7 @@ header .logo h1 {
   }
 
   textarea {
-    width: 48%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 2%;
@@ -118,6 +131,8 @@ header .logo h1 {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+    /* Codes for buttons in the form and main button to open pop up */
+
   .mainbutton {
     position: relative;
     width: 100%;
@@ -125,8 +140,8 @@ header .logo h1 {
     border: none;
     box-sizing: border-box;
     background-color: #ce5e83;
-    color: #fff;
-    padding: 10px;
+    color: #ffffff;
+    padding: 1em;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
 }
 .mainbutton :hover {
@@ -149,95 +164,179 @@ header .logo h1 {
     background-color:#868686;
   }
 
- .submit :hover {
+ .submit:hover {
     background-color:#ce5e83;
   }
   .reset:hover {
     background-color:#ce5e83;
   }
 
+  @media screen and (max-width: 430px) {
+    .submit, .reset {
+      font-size: 12px;
+      box-sizing: border-box;
+      width: 25%;
+    }
+    textarea, input, select {
+      font-size: 12px;
+    }
+    .mainbutton {
+      font-size: 12px;
+    }
+    
+  }
+
+      /* Bakery section and recipe display CSS code */
+
   .bakery {
     text-align: center;
     margin-top: 4%;
+    padding-bottom: 10%;
   }
 
   .bakery h2 {
     color: #3d3d3d;
+    font-size: 40px;
   }
 
-  /* #recipelist {
-    box-sizing: border-box;
-    margin-top: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 25px;
-    border: 2px solid #3d3d3d;
-    text-align: left;
+   .hidden {  /* This code here hides the text under the Bakery heading */
+    transition: visibility 0s 2s, opacity 2s linear;
+    display: none;
   }
 
-  ul, li {
-    list-style-type: none;
-} */
-
+  @media screen and (max-width: 430px) {
+    .bakery h2 {
+      font-size: 25px;
+        }
+        .bakery p {
+          font-size: 15px;
+            }
+        
+  }
 
 #recipelist {
-  margin-top: 2%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 2%;
-    display: block;
-    flex-direction: row;
-    list-style: none;
+  display: block;
   }
 
-#recipelist li {
+#recipelist section {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  border: 1px solid gray;
-  padding: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
+  padding-top: 2em;
+
 }
 
-#recipelist img {
-  flex-grow: 1;
-}
-/* #recipelist li h2 {
-  text-align: left; 
-  flex-direction: row;
-} */
-#recipelist li p {
+#recipelist section p {
+  margin-left: 1em;
+  margin-right: 1em;
+
   text-align: left; 
   flex-grow: 1;
   flex-direction: row;
-  /* margin-left: 10px; */
-  /* max-width: 200px; */
-}
-#recipelist li span {
-  text-align: right;
-  flex-grow: 1;
-  margin-right: 10px;
 }
 
-/* #recipelist li input[type="checkbox"] {
-  margin-top: 10px;
-  width: 20px;
-  height: 20px;
-} */
+#recipelist section button {
+  border: none;
+  font-size: 20px;
+  width: 2em;
+  height: 2em;
+  border-radius: 100%;
+  color:#fff;
+  background-color: #868686;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
 
-#recipelist li button {
-  font-size: 15px;
-  width: 80px;
-  height: 80px;
-  padding: 4px;
-  margin-left: 2px;
 }
 
-#recipelist li strong {
+#recipelist section button:hover{
+  color:#fff;
+  background-color: #eb90ae;
+
+}
+
+#recipelist section strong {
   font-size: 30px;
 }
 
-#recipelist li em {
+#recipelist section em {
   font-size: 20px;
+  color:#ce5e83;
 }
+
+#recipelist section img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#recipelist aside #container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+}
+
+#recipelist aside .list-container {
+  flex: 1;
+}
+
+#recipelist aside #container ul {
+  list-style-type: circle;
+}
+
+#recipelist aside .list {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 430px) {
+  #recipelist {
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    #recipelist aside {
+      font-size: 15px;
+    }
+
+    #recipelist section em {
+      font-size: 20px;
+    }
+
+  #recipelist section p {
+    font-size: 12px;
+    margin-left: 0.5em;   
+    margin-right: 0.5em;
+    }
+      #recipelist section p em {
+        font-size: 15px;
+
+        }
+
+        #recipelist section p strong {
+          font-size: 20px;
+  
+          }
+
+          #recipelist aside #container {
+            font-size: 12px;
+          } 
+
+      #recipelist section img {
+        width: 100px;
+        height: 100px;
+      }
+
+      #recipelist section button {
+        font-size: 15px;
+        width: 2em;
+        height: 2em;
+
+      }
+      
+}
+
