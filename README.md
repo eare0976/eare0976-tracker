@@ -5,11 +5,13 @@ This simple one page website collects recipe data from users as a convenient rec
 
 A lot of the code has been adapted from previous tutorial classes regarding forms and javascript. Otherwise most of the code was original or somewhat sourced or influenced from online resources such as W3Schools, replit, mozilla and chatgpt. 
 
+There are other comments throughout index.html, script.js and style.css for more clarification on what each section does.
+
+*Viewing on Desktop and Mobile*
+
 Desktop designed for 1920x1080px and iPhone 14 Plus at 428x926px, code has been tested for smaller sizes but works best for iPhone 14 Plus size across all pages.
 
-To view the display designed for the iPhone 14 Plus, make the chrome tab as short width ways as possible and change the zoom to 125%. *This was only tested on chrome, not sure if other browsers have different min widths*
-
-There are other comments throughout index.html, script.js and style.css for more clarification on what each section does.
+To view the display designed for the iPhone 14 Plus, make the chrome tab as short width ways as possible and change the zoom to 125%. (This was only tested on google chrome, not sure if other browsers have different min widths)
 
 To run:
 Put in terminal "npm run dev" and access at http://localhost:1234
